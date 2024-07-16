@@ -1,27 +1,42 @@
-# vite-template-redux
+# Wird platform frontend
 
-Uses [Vite](https://vitejs.dev/), [Vitest](https://vitest.dev/), and [React Testing Library](https://github.com/testing-library/react-testing-library) to create a modern [React](https://react.dev/) app compatible with [Create React App](https://create-react-app.dev/)
+Esta es una aplicación web para visualizar una lista de los primeros 151 Pokémones, ver detalles de cada Pokémon, buscar Pokémones y gestionar una lista "Listo para el combate". La aplicación ha sido desarrollada utilizando React y TypeScript, y el manejo de estados globales se realiza con Redux. La lista de Pokémones se obtiene de la API de PokeApi.
 
-```sh
-npx degit reduxjs/redux-templates/packages/vite-template-redux my-app
+## Tecnologías y Herramientas Utilizadas
+
+- [React](https://es.reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Redux](https://es.redux.js.org/)
+- [Vercel](https://vercel.com/)
+- [PokeApi](https://pokeapi.co/)
+- [GitHub](https://github.com/)
+
+## Características
+
+- Visualización de la lista de los primeros 151 Pokémones.
+- Vista de detalles de cada Pokémon con información como imagen, nombre, número, altura, tipo y estadísticas base.
+- Buscador dinámico para filtrar la lista por nombre o número de Pokémon.
+- Gestión de una lista "Listo para el combate" con hasta 6 Pokémones, visible en todo momento y con opción para eliminar Pokémones.
+
+## Instalación y Configuración
+
+### Clonar el Repositorio
+
+```bash
+git clone https://github.com/ruzzll/wird-platform-frontend
+cd wird-platform-frontend
 ```
 
-## Goals
+### Instalar Dependencias
 
-- Easy migration from Create React App or Vite
-- As beginner friendly as Create React App
-- Optimized performance compared to Create React App
-- Customizable without ejecting
+```bash
+npm install
+```
 
-## Scripts
+### Ejecutar la Aplicación en Desarrollo
 
-- `dev`/`start` - start dev server and open browser
-- `build` - build for production
-- `preview` - locally preview production build
-- `test` - launch test runner
+```bash
+npm run dev
+```
 
-## Inspiration
-
-- [Create React App](https://github.com/facebook/create-react-app/tree/main/packages/cra-template)
-- [Vite](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react)
-- [Vitest](https://github.com/vitest-dev/vitest/tree/main/examples/react-testing-lib)
+La aplicación estará disponible en `http://localhost:3000`.
